@@ -1,0 +1,10 @@
+@mixin transition($property, $time:'0.3s', $efect:'ease') {
+    transition: #{$property} #{$time} #{$efect};
+    will-change: #{$property};
+}
+
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	$opacity-ie: $opacity * 100;
+	filter: alpha(opacity=$opacity-ie); //IE8
+}

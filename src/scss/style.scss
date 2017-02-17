@@ -1,0 +1,23 @@
+// Partials
+@import "partials/reset";
+@import "partials/clearfix";
+@import "partials/break-points";
+@import "partials/z-index";
+@import "partials/mixins";
+@import "partials/animations";
+
+// Modules
+@import "modules/colors";
+@import "modules/spacing";
+@import "modules/font";
+@import "modules/icons";
+@import "modules/variables";
+@import "modules/images";
+@import "modules/global";
+
+// Components
+@import "components/header";
+@import "components/footer";
+
+// Pages
+@import "pages/home";

@@ -1,0 +1,9 @@
+.footer {
+    background-color: $pallet-footer-bg;
+    height: $default-gutter-spacing * 5;
+    width: 100%;
+    padding-top: $default-gutter-spacing;
+    border-top: 1px solid $pallet-footer-border-top;
+    text-align: center;
+    font-size: $font-footer-disclaimer-fs;
+}

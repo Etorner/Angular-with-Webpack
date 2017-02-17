@@ -1,0 +1,42 @@
+$default-font-family: 'Open Sans';
+
+//Font line height list
+$font-line-height-0: 1;
+$font-line-height-small-1: 18px;
+$font-line-height-small-2: 20px;
+$font-line-height-normal: 22px;
+$font-line-height-medium-0: 24px;
+$font-line-height-medium-1: 25px;
+$font-line-height-medium-2: 27px;
+$font-line-height-medium-3: 30px;
+$font-line-height-big-1: 36px;
+
+//Font size list
+$font-size-small-0: 8px;
+$font-size-small-1: 11px;
+$font-size-small-2: 12px;
+$font-size-small-3: 13px;
+$font-size-normal: 14px;
+$font-size-medium-1: 16px;
+$font-size-medium-2: 18px;
+$font-size-medium-3: 20px;
+$font-size-medium-4: 22px;
+$font-size-big-1: 24px;
+$font-size-big-2: 26px;
+$font-size-big-3: 28px;
+$font-size-big-4: 40px;
+
+//Format-naming, to avoid any override
+//$font-{componente}-{section}-{option}-fs
+//Example: $font-hero-text-small-fs:
+
+//Body
+$font-body-text: $font-size-normal;
+
+//Header
+$font-header-title-fs: $font-size-medium-3;
+$font-header-user-menu-fs: $font-size-normal;
+
+//Footer
+$font-footer-links-fs: $font-size-small-3;
+$font-footer-disclaimer-fs: $font-size-small-1;

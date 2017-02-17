@@ -1,0 +1,18 @@
+.header {
+	background-color: $pallet-header-bg;
+	background-image: url($image-logo);
+	background-size: $default-gutter-spacing $default-gutter-spacing;
+	background-position: $default-gutter-spacing/2 center;
+	background-repeat: no-repeat;
+	height: $default-gutter-spacing * 2;
+	width: 100%;
+	font-size: $font-header-title-fs;
+	
+	h1 {
+		$offset-line-height-top: 10px;
+
+		color: $pallet-header-title;
+		padding-left: $default-gutter-spacing * 2;
+		padding-top: $default-gutter-spacing - $offset-line-height-top;
+	}
+}
